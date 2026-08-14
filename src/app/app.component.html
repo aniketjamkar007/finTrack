@@ -1,0 +1,17 @@
+<div class="shell">
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">$</span>
+      <span class="brand-name">finTrack</span>
+    </div>
+    <nav class="nav">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Dashboard</a>
+      <a routerLink="/transaction" routerLinkActive="active">Add Transaction</a>
+      <a routerLink="/transactions" routerLinkActive="active">Transactions</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <router-outlet></router-outlet>
+  </main>
+</div>
