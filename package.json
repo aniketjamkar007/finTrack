@@ -1,5 +1,5 @@
 {
-  "name": "fintrack-frontend",
+  "name": "@aniketjamkar007/fintrack-frontend",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,10 @@
     "build": "ng build",
     "test": "ng test fintrack-frontend"
   },
-  "private": true,
+  "private": false,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "@angular/common": "^17.3.0",
     "@angular/compiler": "^17.3.0",
